@@ -23,10 +23,6 @@ body {
 
   header {
     display: grid;
-    grid-template-columns:    'header header header header header header'
-    'left left middle middle right right' 
-    'footer footer footer footer footer footer';
- 
   }
 
   main {
@@ -55,7 +51,10 @@ body {
     padding: 8pt;
     letter-spacing: 12px;
   }
-
+a:hover {
+    border-color: white;
+    border-style: dotted;
+}
   .has-border {
     border-radius: 25px;
     border: 2px solid #2d0a5a;
@@ -138,7 +137,11 @@ section {
     text-align: center;
     grid-column: 2/3;
     overflow: hidden;
+}
 
+button:hover {
+  border-color: white;
+  border-style: dotted;
 }
 
   
@@ -149,7 +152,7 @@ button {
     width: 130pt;
     font-family: "Poiret One", cursive;
     font-size: 15px;
-    border-color: black;
+    border-color: rgb(40, 37, 44);
     background-color: rgb(135,89,129);
     padding: 10px;
     text-align: center;
